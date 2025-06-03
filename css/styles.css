@@ -545,6 +545,16 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   height: 40px;
+  padding-left: 38px;
+  outline: transparent;
+}
+
+.modal-input:focus {
+  border-color: #4d5ae5;
+}
+
+.modal-input:focus + .modal-svg {
+  fill: #4d5ae5;
 }
 
 .modal-label-input {
@@ -557,6 +567,14 @@ img {
   margin-bottom: 4px;
 }
 
+.model-input-absolute {
+  position: relative;
+}
+
 .modal-svg {
   fill: #2e2f42;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
 }
