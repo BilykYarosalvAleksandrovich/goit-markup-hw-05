@@ -486,7 +486,7 @@
             <div class="model-input-absolute">
               <input
                 type="text"
-                class="modal-input"
+                class="modal-input modal-item"
                 name="user-name"
                 id="user-name"
               />
@@ -495,13 +495,13 @@
               </svg>
             </div>
           </div>
+
           <div class="modal-field">
             <label for="user-phone" class="modal-label-input">Phone</label>
-
             <div class="model-input-absolute">
               <input
                 type="tel"
-                class="modal-input"
+                class="modal-input modal-item"
                 name="user-phone"
                 id="user-phone"
               />
@@ -515,7 +515,7 @@
             <div class="model-input-absolute">
               <input
                 type="email"
-                class="modal-input"
+                class="modal-input modal-item"
                 name="user-email"
                 id="user-email"
               />
@@ -523,17 +523,19 @@
                 <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
               </svg>
             </div>
-            <div class="modal-field">
-              <label for="user-text" class="modal-label-input">Comment</label>
+          </div>
+          <div class="modal-field">
+            <label for="user-text" class="modal-label-input">Comment</label>
+            <div class="model-input-absolute">
               <textarea
-                class="modal-textarea"
+                class="modal-textarea modal-item"
                 name="user-text"
                 id="user-text"
                 placeholder="Text input"
               ></textarea>
             </div>
           </div>
-          <button type="submit"></button>
+          <button class="solution-button" type="submit">Send</button>
         </form>
       </div>
     </div>

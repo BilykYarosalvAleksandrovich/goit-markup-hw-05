@@ -487,6 +487,7 @@ img {
 }
 /* #endregion footer */
 
+/* #region modal form */
 .backdrop {
   width: 100%;
   height: 100%;
@@ -531,14 +532,12 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: #e7e9fc;
   display: flex;
   align-items: center;
   justify-content: center;
-  stroke-width: 1px rgba(0, 0, 0, 0.1);
-}
-.odel-close-icon {
+  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .modal-field {
@@ -612,3 +611,5 @@ img {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
+
+/* #endregion modal form */
