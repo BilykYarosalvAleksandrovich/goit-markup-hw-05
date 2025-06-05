@@ -469,6 +469,29 @@
               </a>
             </li>
           </ul>
+
+          <div class="footer-subscribe">
+            <p class="footer-box-text">Subscribe</p>
+            <form class="footer-form">
+              <label for="footer-email" aria-label="footer emil">
+                <input
+                  class="footer-input"
+                  type="email"
+                  name="footer-email"
+                  id="footer-email"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button type="submit" class="footer-btn">
+                Subscribe
+                <span class="footer-btn-images">
+                  <svg class="footer-button-images" width="24" height="24">
+                    <use href="./images/icons.svg#icon-Frame-3"></use>
+                  </svg>
+                </span>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
@@ -534,21 +557,30 @@
                 placeholder="Text input"
               ></textarea>
             </div>
-            <div class="modal-field">
-              <input
-                type="checkbox"
-                name="privacy-policy"
-                id="privacy-policy"
-                class="modal-check"
-                value="true"
-              />
-              <label for="privacy-policy" class="check-text"
-                ><span class="check-element"></span> I accept the terms and
-                conditions of the <a href="">Privacy Policy</a></label
-              >
-            </div>
           </div>
-          <button class="solution-button" type="submit">Send</button>
+          <div class="modal-field">
+            <input
+              type="checkbox"
+              name="privacy-policy"
+              id="privacy-policy"
+              class="modal-check visually-hidden"
+              value="true"
+            />
+            <label for="privacy-policy" class="check-text"
+              ><span class="check-element">
+                <svg class="check-images" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a
+                class="privacy-policy-link"
+                href="https://legalitgroup.com/mij-sajt-chi-zastosunok-potrebuye-privacy-policy/"
+                >Privacy Policy</a
+              ></label
+            >
+          </div>
+          <button class="solution-button btn" type="submit">Send</button>
         </form>
       </div>
     </div>
