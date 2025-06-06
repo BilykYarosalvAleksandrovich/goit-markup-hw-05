@@ -468,6 +468,12 @@ img {
   align-items: baseline;
   max-width: 208px;
 }
+.footer-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footer-box-text {
   margin-bottom: 16px;
   font-weight: 500;
