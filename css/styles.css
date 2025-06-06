@@ -543,6 +543,9 @@ img {
   margin-left: 16px;
 }
 
+.footer-button-images {
+}
+
 .footer-subscribe {
   max-width: 453px;
   margin-left: 80px;
@@ -614,7 +617,7 @@ img {
   border: none;
 }
 
-.model-close-ion {
+.model-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -723,7 +726,6 @@ img {
 }
 
 .check-images {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .privacy-policy-link {
@@ -751,6 +753,9 @@ img {
 
 .btn {
   margin-top: 24px;
+}
+.modal-field-privacy {
+  margin-bottom: 24px;
 }
 
 /* #endregion modal form */
